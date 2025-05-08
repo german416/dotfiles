@@ -1,0 +1,7 @@
+[user]
+	name = German Rodrigo Alvarez Fabre
+	email = geralvarez.085@gmail.com
+[core]
+	editor = nvim
+[color]
+	ui = auto
