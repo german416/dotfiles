@@ -1,0 +1,47 @@
+# POWER LEVEL 10K
+alias p10kc="p10k configure"
+
+# BAT
+alias cat="bat"
+
+# CLS
+alias cls="clear"
+
+# EZA
+alias ls="eza"
+alias lsx="eza --long --header --all --group-directories-first --icons --git --changed --created --accessed --modified --time-style=iso"
+alias lsa="eza --group-directories-first --all"
+
+# ZOXIDE
+alias zoxide="cd"
+
+# TOUCH
+alias tch="touch"
+
+# EXIT
+alias qq="exit"
+
+# ZYPPER
+alias zyp="sudo zypper"
+alias zypin="sudo zypper install"
+alias zypse="zypper search"
+alias zypre="sudo zypper remove"
+
+# RUTAS
+alias cdh="cd $HOME"
+alias cdc="cd $HOME/.config"
+alias cdz="cd $HOME/.config/zsh"
+alias cd.="cd .."
+alias cdn="cd $HOME/.config/nvim"
+alias cdr="cd $HOME/Repos"
+
+# ARCHIVOS RO
+alias _alias="bat $HOME/.config/zsh/alias"
+
+# ARCHIVOS RW
+alias __alias="nvim $HOME/.config/zsh/alias"
+alias __zshrc="nvim $HOME/.config/zsh/.zshrc"
+alias __zshenv="nvim $HOME/.zshenv"
+alias __p10k="nvim $HOME/.p10k.zsh"
+alias __nv="nvim $HOME/.config/nvim"
+alias __wez="nvim $HOME/.wezterm.lua"
