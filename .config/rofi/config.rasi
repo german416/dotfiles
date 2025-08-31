@@ -1,0 +1,13 @@
+configuration {
+  modi: "combi";
+  font: "JetBrains Mono 12";
+  display-drun: "";
+  display-run: "";
+  display-combi: "find";
+  combi-modi: "drun,run";
+  //sidebar-mode: true;
+  //icon-theme: "Default";
+  //show-icons: true;
+  history: true;
+}
+@theme "Arc.rasi"
