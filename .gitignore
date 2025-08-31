@@ -28,3 +28,6 @@
 
 !.config/rofi/
 !.config/rofi/**
+
+!.config/nix/
+!.config/nix/**
