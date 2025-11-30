@@ -53,10 +53,10 @@ alias cdn="cd $HOME/.config/nvim"
 alias cdr="zoxide $HOME/Repos"
 
 # ARCHIVOS RO
-alias _alias="bat --language zsh $HOME/.config/zsh/alias"
+alias _alias="bat --language zsh $HOME/.config/zsh/alias.zsh"
 
 # ARCHIVOS RW
-alias __ali="cd $HOME/.config/zsh/ && nvim alias.zsh"
+alias __alias="cd $HOME/.config/zsh/ && nvim alias.zsh"
 alias __zrc="cd $HOME/.config/zsh/ && nvim .zshrc"
 alias __znv="cd $HOME/ && nvim .zshenv"
 alias __p10="cd $HOME/.config/zsh/ && nvim p10k.zsh"
