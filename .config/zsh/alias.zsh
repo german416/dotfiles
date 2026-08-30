@@ -19,7 +19,7 @@ alias ls="eza --icons=always --hyperlink --group-directories-first --all"
 alias nv="nvim"
 
 # ZOXIDE
-alias zoxide="cd"
+alias z="zoxide"
 
 # TOUCH
 alias tch="touch"
@@ -45,12 +45,12 @@ alias lgh="lazygit -p $HOME"
 alias lgn="lazygit -p $HOME/.config/nvim"
 
 # RUTAS
-alias cdh="zoxide $HOME"
+alias cdh="cd $HOME"
 alias cdc="cd $HOME/.config"
 alias cdz="cd $HOME/.config/zsh"
 alias cdd="cd .."
 alias cdn="cd $HOME/.config/nvim"
-alias cdr="zoxide $HOME/Repos"
+alias cdr="cd $HOME/Repos"
 
 # ARCHIVOS RO
 alias _alias="bat --language zsh $HOME/.config/zsh/alias.zsh"
